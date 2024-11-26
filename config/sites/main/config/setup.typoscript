@@ -1,0 +1,21 @@
+page = PAGE
+page {
+    10 = FLUIDTEMPLATE
+    10 {
+        templateName = Login
+        templateRootPaths.0 = fileadmin/templates/felogin/
+    }
+}
+
+plugin.tx_felogin_login {
+    settings {
+        pages = 1
+        storagePid = 2
+    }
+    view {
+        templateRootPaths {
+            0 = EXT:felogin/Resources/Private/Templates/
+            10 = fileadmin/templates/felogin/
+        }
+    }
+}

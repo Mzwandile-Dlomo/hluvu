@@ -1,0 +1,16 @@
+// Aggressive words and their severity levels
+boss:high
+aggressive:high
+threat:high
+hurt:high
+kill:severe
+die:severe
+afraid:medium
+scared:medium
+help:medium
+stop:medium
+please:context
+crying:high
+scream:high
+violence:severe
+weapon:severe
